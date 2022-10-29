@@ -5,7 +5,7 @@ public class DemoVarChar {
         ch1 = 64; // Kode untuk @
         ch2 = 's';
 
-        System.out.print("ch1 dan ch2 adala");
+        System.out.print("ch1 dan ch2 adalah ");
         System.out.println(ch1 + " " + ch2);
 
     }
