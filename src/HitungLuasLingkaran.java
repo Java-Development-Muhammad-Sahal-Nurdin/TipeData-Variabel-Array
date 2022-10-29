@@ -18,6 +18,6 @@ class HitungLuasLingkaran {
         luasLingkaran = pi * r * r;
 
         System.out.println("Maka luas lingkaran adalah: " + luasLingkaran);
-
+        systemInput.close(); // Menutup Scanner
     }
 }
