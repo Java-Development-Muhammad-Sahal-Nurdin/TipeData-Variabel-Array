@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javafx.scene.paint.Stop;
-
 public class HitungJarakJelajahCahaya {
     public static void main(String[] args) throws Exception {
         // Deklarasi Variabel
@@ -9,11 +7,12 @@ public class HitungJarakJelajahCahaya {
 
         // Input user
         Scanner systemInput = new Scanner(System.in);
-        System.out.println("Masukkan kecepatan cahaya yang dinginkan ");
+        System.out.println("Masukkan kecepatan cahaya yang dinginkan: ");
+        kecepatanCahaya = systemInput.nextLong();
+        System.out.println("Masukkan jumlah hari yang dinginkan: ");
+        jumlahHari = systemInput.nextLong();
 
         // Menghitung jarak jelajah cahaya dalam detik
-        kecepatanCahaya = systemInput.nextLong();
-        jumlahHari = systemInput.nextLong();
         detik = jumlahHari * 60 * 60 * 24;
         panjangKM = kecepatanCahaya * detik;
 
