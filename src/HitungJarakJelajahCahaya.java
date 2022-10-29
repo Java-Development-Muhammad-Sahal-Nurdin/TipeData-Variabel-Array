@@ -1,3 +1,5 @@
+// Problem : Tulislah sebuah program untuk menghitung jarak jelajah cahaya menggunakan varibal Long
+
 import java.util.Scanner;
 
 public class HitungJarakJelajahCahaya {
